@@ -1,0 +1,71 @@
+/*--------------    NAVBAR*/
+
+.navbar-inverse {   /*fondo*/
+	background-color: #fff;
+	border-color: #fff;
+	position:fixed;
+	margin: 25px;
+}
+
+img.navbar-brand{  /*logo*/
+	padding-left: 100px;
+	margin-top: 5px;
+	width: 250px;
+	height:65px; 
+}
+
+/*.... viaja, conduce , inicia ..*/
+.navbar-inverse .navbar-nav>li>a{
+	padding: 30px;
+	color: black;
+}
+
+/*hamburguesa*/
+
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+
+      .navbar-inverse .navbar-toggle{ /*Color hamburguesa*/
+      	background: #FFF;
+      	border: none;
+      	margin-top: 20px;
+      }
+
+      .navbar-inverse .navbar-toggle .icon-bar{ /*Lineas de hamburguesa*/
+      	background: black;
+      }
+
+     .navbar-brand { /*img logo hamburguesa*/
+     	padding-top: 20px;
+     	margin-top: -60px;
+     }

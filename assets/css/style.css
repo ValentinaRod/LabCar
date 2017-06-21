@@ -1,0 +1,7 @@
+/*--------------    NAVBAR*/
+
+.navbar-inverse {   /*fondo*/
+	background-color: #fff;
+	border-color: #fff;
+	position:fixed;
+}
