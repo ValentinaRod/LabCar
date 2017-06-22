@@ -40,63 +40,24 @@ Color gris (footer): #2b2b2b
   height: 20%;
 }
 
-img.navbar-brand{  /*logo*/
-  padding-left: 160px;
-  padding-right: 50px;
-  margin-top: 10px;
-  width: 307px;
-  height: 68px;
-  
+
+.navbar-brand>img{  /*logo*/
+  margin-top: 25px;
 }
-
-
-
 /*.... viaja, conduce , inicia ..*/
-.navbar-inverse .navbar-nav>li>a{
-  padding: 40px;
-  margin-top: -80px;
-  color: black;
-  font-weight: bold;
+.navbar-nav {
+    padding: 30px;
+    margin-top: 10px;
 }
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ /*.... viaja, conduce , inicia ..*/
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form { /*.... viaja, conduce , inicia ..*/
   margin-top: 25px;
 }
 
 /*hamburguesa*/
+body { 
+  
+  padding-top: 80px; 
 
-body {
-  padding-top: 50px;
-  position: relative;
 }
-
-pre {
-  tab-size: 8;
-}
-
-@media (min-width: 100px) and (max-width: 824px) {
-  .side-collapse-container{
-    width:100%;
-    position:relative;
-    left:0;
-    transition:right .4s;
-  }
-  .side-collapse-container.out{
-    left:200px;
-  }
-  .side-collapse {
-    top:50px;
-    bottom:0;
-    left:0;
-    width:200px;
-    position:fixed;
-    overflow:hidden;
-    transition:width .4s;
-  }
-  .side-collapse.in {
-    width:0;
-  }
-}
-
-
 
