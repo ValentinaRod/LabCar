@@ -150,3 +150,54 @@ margin-top: 0px;
   font-size: 20px;
   color:#FFF;
 }
+
+/*----------------------------SECTION-FIVE*/
+
+.section-four{
+  background: #f7b617;
+  width: 100%;
+  height: 500px;
+}
+
+h5{
+  font-size: 35px;
+  color:#FFF;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+.info4{
+  font-size: 16px;
+  color:#FFF;
+  
+
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin: 9px;
+    width: 300px;
+    height: 40px;
+}
+
+
+
+/*---------------------------FOOTEERS*/
+
+.section-footer {
+  background: #2b2b2b;
+
+}
+.logoblanco {
+  margin-top: 55px;
+}
+
+.redes-sociales{
+  color: white;
+}
+
+
