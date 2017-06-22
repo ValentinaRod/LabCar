@@ -60,7 +60,8 @@ body {
   height:380px;
   background: #f7b617;
   position: absolute;
-  margin-top: 1350px;
+  margin-top: 1437px;
+  margin-left: 566px;
 }
 
 /*--------------------------------SECTION-TWO*/
@@ -116,7 +117,36 @@ body {
   font-size: 20px;
   padding: 10px; 
    
- 
+}
+
+/*-------------------SECTION-THREE-----------*/
+
+.three-section {
+  background: url(../docs/img/conduce.jpg);
+  background-size: cover;
+  background-position:center center;
+  width: 330vh;
+  height: 87vh;
+}
+
+.caja3{
+margin: 30px 0px 30px 0px;  
+padding: 10px;
+background: rgba(0,0,0,0.5);
+width: 500px;
+height: 583px;
+margin-top: 0px;
+}
+
+
+.Conduceinfo {
+  font-size: 20px;
+  color:#FFF;
+  margin-top: 200px;
 
 }
 
+.LabCar1 {
+  font-size: 20px;
+  color:#FFF;
+}
