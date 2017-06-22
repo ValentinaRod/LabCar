@@ -77,8 +77,46 @@ body {
   margin-left: -100px;
 }
 
+.imgcelular{
+  padding-left: -100px;
+}
+
+
 .celular{
   margin-left: 20px;
   width: 270px;
   height: 400px;
 }
+
+/*---TITULOS Y PARRAFOS DE LA SECCION 2*/
+
+.info {
+  margin-left: : -100px;
+  padding-left: 180px;
+  line-height: right;
+}
+
+
+.title1{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.info1{
+  color: #FFF;
+  font-size: 20px;
+  padding: 10px; 
+   
+}
+
+.info2 {
+  color: #FFF;
+  font-size: 20px;
+  padding: 10px; 
+   
+ 
+
+}
+
