@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<title>Proyecto-Final-Labcar</title>
+	<script src="https://use.fontawesome.com/d9456a7cc8.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/docs/iconos/style.css">
 	<link rel="alternate" href="assets/css/media.css">
@@ -90,7 +91,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3  caja3" >
-         			<div class="col-md-12">
+         			<div class="col-md-12 columna1">
          				<p class="Conduceinfo">Conduce cuando quieras</p>
 						<p class= "LabCar1">LabCar es una opcion flexible para alcanxar tus metas cuado quieras</p>
 						<button type="button" class="btn btn-warning">Conviertete en conductor</button>
@@ -102,42 +103,53 @@
 	</div>
 				
 </section>
+<!-------------------------------------SECTION-FIVE---------------->
+<section class="tarifa">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<h2 class="Tarifas"><strong>Tarifas</strong></h2>
+					<p class="Consulta">Consulta las tarifas LabCar aquí</p>
+					<div class="row mt-25">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+							<img src="assets/docs/img/circulo.png" alt="">
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-11 col-xs-11">
+							<input id="origen" type="text" placeholder="Tu Origen">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+							<img src="assets/docs/img/flecha.png" alt="flecha">
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-11 col-xs-11">
+							<input id="destino" type="text" placeholder="Tu Destino">
+						</div>
+					</div>
+					<div class="text-center">
+						<button class="btn btn-lg btn-default" id="ruta"><strong>¡TRAZAR RUTA!</strong></button>
+					</div>
+					<div class="text-center">
+						<div id="costo-viaje"></div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+					<div class="mapa">
+						<div class="cuadro-mapa" id="map">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+	</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-------------------------------linkeados-->
 
 <script src="assets/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY_pb4UEjy_YHA1rMyBWIYJd_ARaevvmg=initMap&libraries=places"
+  type="text/javascript"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
