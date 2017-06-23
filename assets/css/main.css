@@ -60,10 +60,65 @@ body {
   height:380px;
   background: #f7b617;
   position: absolute;
-  margin-top: 1437px;
-  margin-left: 566px;
+  margin-top: 1360px;
+  margin-left: 786px;
 }
 
+.titulo {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+.titulo1{
+  color: #FFF;
+  font-size: 30px;
+   font-weight: bold;
+}
+
+.viajar{
+  font-size: 16px;
+  color: #FFF;
+}
+
+img#lgb{
+  margin-left: 76px;
+  margin-top: -71px;
+  width: 83px;
+  height: 20px;
+}
+
+.registro{
+ font-size: 12px;
+ color: #FFF;
+  
+}
+
+.bien {
+ margin-top: -44px;
+ margin-left: 173px;
+ color: #FFF;
+}
+
+.linea {
+  margin-left: 30px;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  width: 145px;
+}
+#linea2 {
+  margin-left: 230px;
+  margin-top: -20px;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  width: 145px;
+}
+
+.botonblanco{
+  margin-top: 10px;
+}
 /*--------------------------------SECTION-TWO*/
 .section-two{
   background: #f7b617;
