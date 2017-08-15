@@ -1,0 +1,41 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.negro{
+	color: black;
+}
+
+.line{
+	border: 1px solid white;
+	margin-top: 6%;
+}
+
+.line-footer{
+	border: 1px solid grey;
+	margin: 2% 0;
+}
+
+.mt{
+	margin-top: 9%;
+}
+
+.mb{
+	margin-bottom: 9%;
+}
+
+.mr{
+	margin-right: 9%;
+}
+
+.ml{
+	margin-left: 9%;
+}
+

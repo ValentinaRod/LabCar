@@ -1,0 +1,243 @@
+
+/*---------------------------- NAV ------------------------------------------*/
+.navbar-default{
+	background: white;
+	border: none;
+	padding: 2% 8% 2% 10%;
+}
+
+.glyphicon-menu-hamburger{
+	border: white;
+}
+
+.mi-logo{
+	width: 80%;
+}
+
+.links-nav{
+	margin: 11% 0;
+}
+
+
+/*----------------------------- HERO -----------------------------------------*/
+.mi-header{
+	height: 110vh;
+	background: url(../assets/img/taxi.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.registro{
+	margin-top: 20%;
+	padding: 4% 7% 8% 7%;
+	background: #f7b617;
+	color: white;
+	position: relative;
+	left: 3%;
+}
+
+.titulos-registro{
+	padding-bottom: 8%;
+}
+
+.texto{
+	font-size: 3vh;
+}
+
+.logo-blanco{
+	width: 20%;
+	margin-left: 2%;
+}
+
+.title-reg{
+	font-size: 5vh;
+}
+
+.registrate{
+	margin: 4% 0;
+}
+
+#registro{
+	color: black;
+	font-weight: bolder;
+	background: white;
+	padding: 2%;
+}
+
+
+/*-----------------------------INFORMACION ---------------------------------------*/
+.info{
+	padding: 3% 0;
+	background: #f7b617;
+	color: white;
+}
+
+.encuadre{
+	border: 1px solid white;
+	left: -1px;
+	padding: 3%;
+}
+
+.encuadre2{
+	margin: 2% 4%;
+	border: 1px solid white;
+	padding: 8% 3%;
+}
+
+.new-app{
+	font-size: 5vw;
+}
+
+.new-app2{
+	font-size: 4vw;
+}
+
+.celu{
+	width: 70%;
+}
+
+.cont-info{
+	padding-right: 13%;
+}
+
+.letter-info{
+	font-size: 150%;
+}
+
+
+/*------------------------------ CONDUCE ---------------------------------------------*/
+.conduce{
+	height: 64vh;
+	background: url(../assets/img/conduce.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.driver{
+	padding: 6% 3%;
+	height: 64vh;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+
+.labcar-option{
+	font-size: 120%;
+}
+
+#conviertete{
+	background: #f7b617;
+	margin-top: 2%;
+	font-weight: bold;
+	padding: 2% 4%;
+}
+
+
+/*---------------------------------- TARIFAS ----------------------------------------*/
+.tarifas{
+	background: #f7b617;
+	color: white;
+}
+
+.cont-map{
+	width: 90%;
+	padding: 2%;
+	margin: 8% 5% 8% 0;
+	border: 1px solid white;
+}
+
+#map{
+	width: 100%;
+	height: 60vh;
+}
+
+.cont-tarifas{
+	padding: 6% 7%;
+}
+
+.size-tarifas{
+	font-size: 5vh;
+}
+
+.consulta{
+	font-size: 120%;
+}
+
+#circulo, #flecha{
+	margin-right: 4%;
+}
+
+input{
+	width: 70%;
+	padding: 2%;
+	background: #f7b617;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+
+#route{
+	background: white;
+	border: white;
+	color: black;
+	font-weight: bold;
+}
+
+.cont-route{
+	margin-left: 30%;
+}
+
+.resultados{
+	height: 3vh;
+}
+
+
+/*------------------------------------- FOOTER --------------------------------------------*/
+footer{
+	background: #2b2b2b;
+	color: white;
+	padding: 5% 7%;
+}
+
+.cont-nets{
+	margin-top: 29%;
+}
+
+.nets{
+	width: 3vh;
+	background: #2b2b2b;
+	border: #2b2b2b;
+}
+
+.list-one, .list-two{
+	list-style: none;
+}
+
+.li-foot{
+	margin: 8% 0;
+}
+
+.links-footer{
+	text-decoration: none;
+	color: white;
+	margin: 5% 0;
+}
+
+.links-footer:hover{
+	text-decoration: none;
+	color: #f7b617;
+	transition: 0.5s
+}
+
+.space-footer{
+	height: 25vh;
+}
+
+.logos-footer{
+	margin-top: 20%;
+}
+
+.img-logos{
+	width: 24vh;
+	margin: 3% 0;
+}
